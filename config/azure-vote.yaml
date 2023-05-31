@@ -78,7 +78,7 @@ kind: Service
 metadata:
   name: azure-vote-front
   annotations:
-    service.beta.kubernetes.io/azure-load-balancer-tcp-idle-timeout: 20
+    service.beta.kubernetes.io/azure-load-balancer-tcp-idle-timeout: "20"
 spec:
   type: LoadBalancer
   ports:
